@@ -10,8 +10,8 @@
 3° import bibliotecas locais
 """
 
-# Nomes
 
+# Nomes
 """ 
 snake_case = 2 # variaveis
 
