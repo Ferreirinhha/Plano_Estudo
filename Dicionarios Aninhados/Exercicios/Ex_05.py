@@ -20,14 +20,17 @@ alunos = {
 
 
 busca = str(input('Aluno: '))
-busca2 = str(input('Matéria: '))
 
 for aluno, materia in alunos.items():
     if busca == aluno:
-        print('Aluno achado.')
-    if busca2 in materia:
-        nova_nota = float(input('Nova nota: '))
-        materia[busca2] = nova_nota
-        print('Matéria achada.')
+        busca2 = str(input('Matéria: '))
+        if busca2 in materia:
+            nova_nota = float(input('Nova nota: '))
+            materia[busca2] = nova_nota
+            break
+        else:
+            print(f'\033[1;31mA matéria \033[1;33m{busca2}\033[m \033[1;31mnão existe.\033[m')
+    else:
+        print('Aluno não encontrado')
 
 print(alunos)
