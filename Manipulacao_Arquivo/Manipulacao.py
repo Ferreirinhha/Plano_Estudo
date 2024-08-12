@@ -37,7 +37,7 @@ def ler_arquivo_linha_por_linha():
             linha = arquivo.readline()
 
 def ler_arquivo_todo_adicionando_numa_lista():
-    with open('Nome do Arquivo.txt', 'r') as arquivo:
+    with open('C:\Programação\Python\Plano_Estudo\Manipulacao_Arquivo\Exercicios\Ex', 'r') as arquivo:
         conteudo = arquivo.readlines() # Le o arquivo todo adicionando-o numa lista
         print(conteudo)
 
@@ -63,3 +63,6 @@ def ler_imagem():
 
 #wb: escrever binario
 #rb: ler binario
+
+
+ler_arquivo_todo_adicionando_numa_lista()

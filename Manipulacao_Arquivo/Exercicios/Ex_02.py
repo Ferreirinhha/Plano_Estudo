@@ -8,11 +8,20 @@ def copiar(arquivo1, arquivo2):
         texto = ''
     for i in conteudo.split():
         texto += ' ' + i
-        if i == 15:
-            texto += ' \n' + i
-
     with open(arquivo2, 'w') as arquivo0:
         arquivo0.write(texto)
-        
-copiar('C:\Programação\Python\Plano_Estudo\Manipulacao_Arquivo\Exercicios\Ex', 'novo.txt')
+
+# Gpt
+
+def copiar1(origem, destino):
+    with open(origem) as arquivo_origem:
+        conteudo = arquivo_origem.read()
+
+
+    with open(destino, 'w') as arquivo_destino:
+        arquivo_destino.write(conteudo)
+
+
+arquivo = r"C:\\Programação\\Python\\Plano_Estudo\\Manipulacao_Arquivo\\Exercicios\\Ex"        
+copiar(arquivo, 'novo.txt')
 
