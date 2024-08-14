@@ -1,0 +1,8 @@
+4
+3
+2
+1
+Para criar um arquivo dentro de uma pasta específica, você também precisa 
+fornecer o caminho completo ou relativo da pasta onde deseja criar o arquivo ao 
+usar a função open() com o modo de escrita ('w'), adição ('a'), ou outro modo que 
+permita escrita

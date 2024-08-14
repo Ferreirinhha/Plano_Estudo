@@ -1,0 +1,6 @@
+
+Joaninho me ama!!! Data: 2024-08-14  Hora: 00:00:00 
+Joaninho me ama!!! Data: 2024-08-14  Hora: 00:00:00 
+Joaninho me ama!!! Data: 2024-08-14  Hora: <class 'datetime.time'> 
+Joaninho me ama!!! Data: 2024-08-14  Hora: 2024-08-14 15:53:52.506589 
+Joaninho me ama!!! Data: 2024-08-14  Hora: 15:57:25.963021 
