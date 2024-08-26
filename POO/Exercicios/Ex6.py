@@ -18,7 +18,7 @@ class Gerente(Funcionario):
     
 
     def calcular_pagamento(self):
-        self.salario += (self.salario * 0.2)
+        self.salario = self.salario + (self.salario * 0.2)
         return self.salario
 
 
@@ -28,7 +28,7 @@ class Vendedor(Funcionario):
     
 
     def calcular_pagamento(self):
-        self.salario += (self.salario * 0.1)
+        self.salario = self.salario + (self.salario * 0.1)
         return self.salario        
 
 
